@@ -1,14 +1,85 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Online Tools</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #f5faff;
+            color: #333;
+        }
+        header {
+            background-color: #00bcd4;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        nav {
+            background-color: #e0f7fa;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        nav a {
+            text-decoration: none;
+            color: #00796b;
+            font-weight: bold;
+        }
+        main {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .tool-card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            background-color: white;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        footer {
+            background-color: #00bcd4;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
-<body style="font-family: Arial, sans-serif; text-align: center; padding: 50px;">
-    <h1>Welcome to Online Tools</h1>
-    <p>This is a free online tool site.</p>
-    <p>More features coming soon...</p>
+<body>
+    <header>
+        <h1>Online Tools</h1>
+        <p>أفضل الأدوات المجانية في متناول يدك</p>
+    </header>
+
+    <nav>
+        <a href="#">أداة 1</a>
+        <a href="#">أداة 2</a>
+        <a href="#">أداة 3</a>
+    </nav>
+
+    <main>
+        <div class="tool-card">
+            <h2>مرحباً بك!</h2>
+            <p>اختر أداة من الأعلى لبدء الاستخدام.</p>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2025 Online Tools - All rights reserved
+    </footer>
 </body>
 </html>
